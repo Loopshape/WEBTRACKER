@@ -1,0 +1,216 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.left_nav {
+  background-color: hsla(var(--igx-surface-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 28px 16px;
+  width: 250px;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  margin: 0 0 32px;
+  padding: 0 16px 0 0;
+  min-width: 50px;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 0 0 32px;
+  height: max-content;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  height: max-content;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.content_section {
+  background-color: hsla(var(--igx-grays-100));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  padding: 16px 32px 26px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+}
+.content_toolbar {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  margin: 0 0 32px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_4 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 0 32px 0 0;
+  min-width: 375px;
+  min-height: 50px;
+  flex-grow: 1;
+}
+.group_5 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 300px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.h6 {
+  margin: 0 0 24px;
+  height: max-content;
+  min-width: min-content;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.content {
+  margin: 0 0 16px;
+  height: max-content;
+  min-width: min-content;
+}
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--igx-grays-700));
+}
+.icon_1 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--igx-grays-500));
+}
+.h5 {
+  color: #D4D5D9;
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.h6_1 {
+  height: max-content;
+  min-width: min-content;
+}
+.avatar {
+  --background: none;
+}
+.icon_2 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.calendar {
+  margin: 0 0 32px;
+  width: max-content;
+  height: max-content;
+}
+.icon_3 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: #E83180;
+}
+.icon_4 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: #72DA67;
+}
+.badge {
+  width: max-content;
+  height: max-content;
+}
+.list {
+  margin: 0 0 16px;
+  height: max-content;
+  min-width: min-content;
+}
+.list_1 {
+  margin: 0 0 8px;
+  height: max-content;
+  min-width: min-content;
+}
+.button {
+  color: hsla(var(--igx-secondary-500));
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+}
+.button_1 {
+  color: hsla(var(--igx-secondary-500));
+  margin: 0 8px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.button_2 {
+  color: hsla(var(--igx-secondary-500));
+  margin: 0 4px 0 0;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.button_3 {
+  margin: 0 8px 0 0;
+}
+.button_4 {
+  margin: 0 0 16px;
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+}
+.button_5 {
+  margin: 0 0 8px;
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+}
