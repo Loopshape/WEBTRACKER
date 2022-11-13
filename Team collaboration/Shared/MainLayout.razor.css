@@ -1,0 +1,110 @@
+.column-layout {
+    display: flex;
+    flex-direction: column;
+}
+.master-view-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 100%;
+}
+.row-layout {
+    display: flex;
+}
+.header {
+    background-color: hsla(var(--ig-success-500));
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    padding: 12px 20px;
+    height: 60px;
+    flex-shrink: 0;
+}
+.group {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    min-width: 50px;
+    min-height: 50px;
+    flex-grow: 1;
+}
+.group_1 {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+}
+.group_2 {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    position: relative;
+    min-width: 50px;
+    min-height: 50px;
+    flex-grow: 1;
+}
+.image {
+    object-fit: cover;
+    margin: 0 8px 0 0;
+    width: 26px;
+    min-width: 0;
+    min-height: 0;
+    flex-shrink: 0;
+}
+.avatar {
+    --background: none;
+}
+.icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+.button {
+    height: max-content;
+    min-width: min-content;
+    flex-shrink: 0;
+}
+.project-dropdown {
+    min-width: min-content;
+    flex-shrink: 0;
+}
+.button_1 {
+    margin: 0 16px 0 0;
+    height: max-content;
+    min-width: min-content;
+    flex-shrink: 0;
+}
+.section {
+    flex-shrink: 0;
+}
+.button::part(base) {
+    color: hsla(var(--ig-gray-900));
+}
+.project-dropdown::part(base) {
+    width: 222px;
+    height: max-content;
+}
+.button_1::part(base) {
+    color: hsla(var(--ig-surface-500));
+    background-color: hsla(var(--ig-gray-900));
+}
+.icon-button {
+    margin: 0 8px 0 0;
+}
+.nav-drawer {
+    min-width: min-content;
+    min-height: 0;
+    max-width: min-content;
+    flex-shrink: 0;
+}
+.view-container {
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+    flex-grow: 1;
+}
+.nav-drawer::part(main) {
+    width: 320px;
+}

@@ -1,0 +1,142 @@
+@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+
+<div class="column-layout master-view-container">
+    <div class="row-layout header">
+        <div class="row-layout group">
+            <img src="https://static.infragistics.com/marketing/slingshot/slingshot-icon.svg" class="image" />
+            <IgbButton Variant="ButtonVariant.Flat" @onclick="@(e => ProjectDropdown?.ToggleAsync(Button))" @ref="Button" class="button" master-view-scope>
+                <span>Home</span>
+                <span class="material-icons">
+                    keyboard_arrow_down
+                </span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbDropdown @ref="ProjectDropdown" class="project-dropdown" master-view-scope>
+                <IgbDropdownItem>
+                    Home
+                </IgbDropdownItem>
+                <IgbDropdownItem>
+                    Company Inc.
+                </IgbDropdownItem>
+                <IgbDropdownHeader>
+                    INDIGO.DESIGN
+                </IgbDropdownHeader>
+                <IgbDropdownItem>
+                    Growth hacking
+                </IgbDropdownItem>
+                <IgbDropdownItem>
+                    Public preview
+                </IgbDropdownItem>
+                <IgbDropdownItem>
+                    UX Feedback
+                </IgbDropdownItem>
+                <IgbDropdownHeader>
+                    Reveal
+                </IgbDropdownHeader>
+                <IgbDropdownItem>
+                    Onboarding
+                </IgbDropdownItem>
+                <IgbDropdownItem>
+                    Analytics
+                </IgbDropdownItem>
+            </IgbDropdown>
+        </div>
+        <div class="row-layout group_1">
+            <IgbButton @onclick="@(e => Section?.ToggleAsync(Button1))" @ref="Button1" class="button_1" master-view-scope>
+                <span class="material-icons">
+                    add
+                </span>
+                <span>Task</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbIconButton Variant="IconButtonVariant.Flat" class="icon-button" master-view-scope>
+                <span class="material-icons">
+                    add_alert
+                </span>
+                <IgbRipple></IgbRipple>
+            </IgbIconButton>
+            <IgbIconButton Variant="IconButtonVariant.Flat" class="icon-button" master-view-scope>
+                <span class="material-icons">
+                    message
+                </span>
+                <IgbRipple></IgbRipple>
+            </IgbIconButton>
+            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" Shape="AvatarShape.Circle" class="avatar" master-view-scope></IgbAvatar>
+            <IgbDropdown @ref="Section" class="section" master-view-scope>
+                <IgbDropdownItem>
+                    Option
+                </IgbDropdownItem>
+            </IgbDropdown>
+        </div>
+    </div>
+    <div class="row-layout group_2">
+        <IgbNavDrawer Position="NavDrawerPosition.Relative" class="nav-drawer" master-view-scope>
+            <div slot="mini">
+                <IgbNavDrawerItem @onclick="@(e => Navigate(""))">
+                    <span slot="icon">
+                        <span class="material-icons icon">
+                            assignment_turned_in
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                </IgbNavDrawerItem>
+                <IgbNavDrawerItem @onclick="@(e => Navigate("dashboards"))">
+                    <span slot="icon">
+                        <span class="material-icons icon">
+                            dashboard
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                </IgbNavDrawerItem>
+                <IgbNavDrawerItem>
+                    <span slot="icon">
+                        <span class="material-icons icon">
+                            vertical_split
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                </IgbNavDrawerItem>
+                <IgbNavDrawerItem>
+                    <span slot="icon">
+                        <span class="material-icons icon">
+                            bar_chart
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                </IgbNavDrawerItem>
+                <IgbNavDrawerItem>
+                    <span slot="icon">
+                        <span class="material-icons icon">
+                            folder
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </span>
+                </IgbNavDrawerItem>
+            </div>
+            <IgbNavDrawerItem>
+                <span slot="icon">
+                    <span class="material-icons icon">
+                        account_circle
+                    </span>
+                    <IgbRipple></IgbRipple>
+                </span>
+                <div slot="content">Title goes here</div>
+            </IgbNavDrawerItem>
+        </IgbNavDrawer>
+        <div class="view-container">
+            @Body
+        </div>
+    </div>
+</div>
+
+@code {
+    private IgbButton? Button;
+    private IgbDropdown? ProjectDropdown;
+    private IgbButton? Button1;
+    private IgbDropdown? Section;
+    private void Navigate(string path)
+    {
+        NavigationManager.NavigateTo(path);
+    }
+}

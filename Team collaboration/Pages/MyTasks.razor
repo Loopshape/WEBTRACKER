@@ -1,0 +1,300 @@
+@page "/"
+
+<div class="row-layout my-tasks-container">
+    <div class="column-layout left_nav">
+        <h6 class="h6">
+            Tasks
+        </h6>
+        <div class="row-layout group">
+            <p class="typography__body-1 text">
+                VD Team
+            </p>
+            <IgbBadge class="badge" my-tasks-scope>
+                11
+            </IgbBadge>
+        </div>
+        <div class="column-layout group_1">
+            <p class="typography__subtitle-2 content">
+                LISTS
+            </p>
+            <IgbList class="list" my-tasks-scope>
+                <IgbListItem>
+                    <div slot="title">General</div>
+                    <div slot="end">
+                        <span class="material-icons icon">
+                            more_vert
+                        </span>
+                    </div>
+                </IgbListItem>
+                <IgbListItem>
+                    <div slot="title">App Builder</div>
+                    <div slot="end">
+                        <span class="material-icons icon">
+                            more_vert
+                        </span>
+                    </div>
+                </IgbListItem>
+                <IgbListItem>
+                    <div slot="title">Indigo.Design</div>
+                    <div slot="end">
+                        <span class="material-icons icon">
+                            more_vert
+                        </span>
+                    </div>
+                </IgbListItem>
+                <IgbListItem>
+                    <div slot="title">Marketing</div>
+                    <div slot="end">
+                        <span class="material-icons icon">
+                            more_vert
+                        </span>
+                    </div>
+                </IgbListItem>
+                <IgbListItem>
+                    <div slot="title">Customer Portal</div>
+                    <div slot="end">
+                        <span class="material-icons icon">
+                            more_vert
+                        </span>
+                    </div>
+                </IgbListItem>
+            </IgbList>
+            <IgbButton Variant="ButtonVariant.Flat" class="button" my-tasks-scope>
+                <span class="material-icons">
+                    add
+                </span>
+                <span>FILTER</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+        </div>
+        <div class="column-layout group_2">
+            <p class="typography__subtitle-2 content">
+                FILTERS
+            </p>
+            <IgbList class="list" my-tasks-scope>
+                <IgbListItem>
+                    <div slot="title">Due this Week</div>
+                    <div slot="end">
+                        <span class="material-icons icon_1">
+                            more_vert
+                        </span>
+                    </div>
+                </IgbListItem>
+                <IgbListItem>
+                    <div slot="title">Overdue</div>
+                    <div slot="end">
+                        <span class="material-icons icon_1">
+                            more_vert
+                        </span>
+                    </div>
+                </IgbListItem>
+            </IgbList>
+            <IgbButton Variant="ButtonVariant.Flat" class="button" my-tasks-scope>
+                <span class="material-icons">
+                    add
+                </span>
+                <span>FILTER</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+        </div>
+    </div>
+    <div class="column-layout content_section">
+        <div class="row-layout content_toolbar">
+            <h5 class="h5">
+                VD Team
+            </h5>
+            <IgbButton Variant="ButtonVariant.Flat" class="button_1" my-tasks-scope>
+                <span class="material-icons">
+                    list
+                </span>
+                <span>LIST</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbButton Variant="ButtonVariant.Flat" class="button_2" my-tasks-scope>
+                <span class="material-icons">
+                    calendar_view_day
+                </span>
+                <span>SECTION</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbButton Variant="ButtonVariant.Flat" class="button_2" my-tasks-scope>
+                <span class="material-icons">
+                    dns
+                </span>
+                <span>FIELDS</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+            <IgbIconButton Variant="IconButtonVariant.Flat" class="icon-button" my-tasks-scope>
+                <span class="material-icons">
+                    filter_list
+                </span>
+                <IgbRipple></IgbRipple>
+            </IgbIconButton>
+            <IgbIconButton Variant="IconButtonVariant.Flat">
+                <span class="material-icons">
+                    more_vert
+                </span>
+                <IgbRipple></IgbRipple>
+            </IgbIconButton>
+        </div>
+        <div class="row-layout group_3">
+            <div class="column-layout group_4">
+                <h6 class="h6_1">
+                    Developer Tools
+                </h6>
+                <p class="typography__subtitle-2 content">
+                    Release 2020.2
+                </p>
+                <IgbList class="list_1" my-tasks-scope>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar1.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">Download any Ultimate product and take notes on the download process</div>
+                        <div slot="subtitle">Product download process experience</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar2.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">Report about the downloaded ultimate products to the Marketing Team</div>
+                        <div slot="subtitle">Product download process experience</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                </IgbList>
+                <IgbButton Variant="ButtonVariant.Flat" class="button_3" my-tasks-scope>
+                    <span class="material-icons">
+                        add
+                    </span>
+                    <span>task</span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+                <h6 class="h6_1">
+                    App Builder
+                </h6>
+                <p class="typography__subtitle-2 content">
+                    September release - Sprint 1
+                </p>
+                <IgbList class="list_1" my-tasks-scope>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar3.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">Research new sample app</div>
+                        <div slot="subtitle">New sample application</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar2.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">Create visual design for new sample app</div>
+                        <div slot="subtitle">New sample application</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar5.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">Implementation for new sample app</div>
+                        <div slot="subtitle">New sample application</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">Tweaks in List component</div>
+                        <div slot="subtitle">App Builder UI Components</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar1.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">QE of new App Builder components</div>
+                        <div slot="subtitle">App Builder UI Components</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="start">
+                            <IgbAvatar Src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar4.png" Shape="AvatarShape.Circle" class="avatar" my-tasks-scope></IgbAvatar>
+                        </div>
+                        <div slot="title">Implementation of Chips component</div>
+                        <div slot="subtitle">App Builder UI Components</div>
+                        <div slot="end">
+                            <span class="material-icons icon_2">
+                                more_vert
+                            </span>
+                        </div>
+                    </IgbListItem>
+                </IgbList>
+                <IgbButton Variant="ButtonVariant.Flat" class="button_4" my-tasks-scope>
+                    <span class="material-icons">
+                        add
+                    </span>
+                    <span>Task</span>
+                    <IgbRipple></IgbRipple>
+                </IgbButton>
+            </div>
+            <div class="column-layout group_5">
+                <IgbCalendar HideHeader="false" class="calendar" my-tasks-scope></IgbCalendar>
+                <h6 class="content">
+                    Release Calendar
+                </h6>
+                <IgbList class="list_1" my-tasks-scope>
+                    <IgbListItem>
+                        <div slot="title">App Builder</div>
+                        <div slot="subtitle">Product download process experience</div>
+                        <div slot="end">
+                            <span class="material-icons icon_3">
+                                check_circle
+                            </span>
+                        </div>
+                    </IgbListItem>
+                    <IgbListItem>
+                        <div slot="title">Ultimate Products Review</div>
+                        <div slot="subtitle">08.13.2020</div>
+                        <div slot="end">
+                            <span class="material-icons icon_4">
+                                error
+                            </span>
+                        </div>
+                    </IgbListItem>
+                </IgbList>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+}
