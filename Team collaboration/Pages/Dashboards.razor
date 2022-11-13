@@ -1,0 +1,142 @@
+@page "/dashboards"
+
+<div class="row-layout dashboards-container">
+    <div class="column-layout group">
+        <h6 class="h6">
+            Dashboards
+        </h6>
+        <IgbList class="list" dashboards-scope>
+            <IgbListItem>
+                <div slot="title">Dashboards</div>
+                <div slot="end">
+                    <span class="material-icons icon">
+                        dashboard
+                    </span>
+                </div>
+            </IgbListItem>
+            <IgbListItem>
+                <div slot="title">Favorites</div>
+                <div slot="end">
+                    <span class="material-icons icon">
+                        star
+                    </span>
+                </div>
+            </IgbListItem>
+            <IgbListItem>
+                <div slot="title">Recent</div>
+                <div slot="end">
+                    <span class="material-icons icon_1">
+                        access_time
+                    </span>
+                </div>
+            </IgbListItem>
+            <IgbListItem>
+                <div slot="title">Samples</div>
+                <div slot="end">
+                    <span class="material-icons icon">
+                        ballot
+                    </span>
+                </div>
+            </IgbListItem>
+        </IgbList>
+    </div>
+    <div class="column-layout group_1">
+        <div class="row-layout group_2">
+            <h5 class="h5">
+                Recent
+            </h5>
+        </div>
+        <div class="row-layout group_3">
+            <IgbCard class="card" dashboards-scope>
+                <IgbCardMedia class="media-content" dashboards-scope>
+                    <img src="https://static.infragistics.com/marketing/reveal/reveal-app-data-visualization-dashboard-screenshot-768.jpg?v=201812181150" class="image" />
+                </IgbCardMedia>
+                <IgbCardHeader>
+                    <h3 slot="title">
+                        Artists Analysis
+                    </h3>
+                    <h5 slot="subtitle">
+                        Jun 15, 2020 - Jason Anderson
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" dashboards-scope>
+                    <IgbIconButton Variant="IconButtonVariant.Flat">
+                        <span class="material-icons">
+                            star_border
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton Variant="IconButtonVariant.Flat">
+                        <span class="material-icons">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" dashboards-scope>
+                <IgbCardMedia class="media-content" dashboards-scope>
+                    <img src="https://static.infragistics.com/marketing/reveal/reveal-app-data-visualization-decision-making-create-chart-types-graphic-768.jpg?v=201812181150" class="image" />
+                </IgbCardMedia>
+                <IgbCardHeader>
+                    <h3 slot="title">
+                        For evaluation
+                    </h3>
+                    <h5 slot="subtitle">
+                        Jun 15, 2020 - Martina Roberts
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" dashboards-scope>
+                    <IgbIconButton Variant="IconButtonVariant.Flat">
+                        <span class="material-icons">
+                            star
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton Variant="IconButtonVariant.Flat">
+                        <span class="material-icons">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbCard class="card" dashboards-scope>
+                <IgbCardMedia class="media-content" dashboards-scope>
+                    <img src="https://static.infragistics.com/marketing/reveal/reveal-app-data-visualization-dashboard-screenshot-768.jpg?v=201812181150" class="image" />
+                </IgbCardMedia>
+                <IgbCardHeader>
+                    <h3 slot="title">
+                        Stylescape Results
+                    </h3>
+                    <h5 slot="subtitle">
+                        Jun 15, 2020 - Caroline Sanders
+                    </h5>
+                </IgbCardHeader>
+                <IgbCardActions class="actions-content" dashboards-scope>
+                    <IgbIconButton Variant="IconButtonVariant.Flat">
+                        <span class="material-icons">
+                            star_border
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                    <IgbIconButton Variant="IconButtonVariant.Flat">
+                        <span class="material-icons">
+                            share
+                        </span>
+                        <IgbRipple></IgbRipple>
+                    </IgbIconButton>
+                </IgbCardActions>
+            </IgbCard>
+            <IgbButton Variant="ButtonVariant.Fab" class="button" dashboards-scope>
+                <span class="material-icons">
+                    add
+                </span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+        </div>
+    </div>
+</div>
+
+@code {
+}
