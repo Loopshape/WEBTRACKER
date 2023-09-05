@@ -9,7 +9,7 @@ by representing a conditional level of power, that is describing a force around 
 synchronized with all planetary logical structures, 
 that are recognizable as floating particles of light and swinging waves of the magnetic force, 
 that is the basic ground for our existence by moving us within a strict order of one final direction, 
-which wasexisting permanently. There’s a stream of power through this universe, 
+which was existing permanently. There’s a stream of power through this universe, 
 floating from“now” to “then” and is well known as “space”, 
 that has swinging forces of conditionalenergetic fields, 
 that are resulting by the pure existence of not available energetic fields, 
