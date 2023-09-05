@@ -1,22 +1,26 @@
 // Bitcoin < Satoshi = real > imag = float by integer 
 
 /* 
-SATOSHI NAKAMOTO would may consider?
 
-That’s the explanation of this world, by representing a conditional level of power, 
-that isdescribing a force around us by logical structures, 
+Would SATOSHI NAKAMOTO may ever consider?
+
+#Bitcoin < Satoshi = real > imag = float by integer
+
+I hope, that’s the explanation of this cryptocurrency world, 
+by representing a conditional level of power, that is describing a force around us all, 
+synchronized with all planetary logical structures, 
 that are recognizable as floating particles of light and swinging waves of the magnetic force, 
 that is the basic ground forour existence by moving us within a strict order of one final direction, 
 which wasexisting permanently. There’s a stream of power through this universe, 
 floating from“now” to “then” and is well known as “space”, 
 that has swinging forces of conditionalenergetic fields, 
 that are resulting by the pure existence of not available energetic fields, 
-that are not here on this place to be, but they exists on another place for being there:
+that are not here on this place to be, but they exists on another place for being there: 
 
-The gravitational force! 
-It’s an energetic form of a force that exists as an energetic fieldthrough all natural beings 
-and could be understand as a swinging mirror, that only wants to show us, 
-there the shadows are hiding, but never the light was broken.
+The gravitational force! It’s an energetic form of a force that exists as an energetic field 
+through all natural beings and could be understand as a swinging mirror, 
+that onlywants to show us, there the shadows are hiding, but never the light was broken...
+
 */
 
 #AI generated CODE 
