@@ -1,10 +1,8 @@
-// Bitcoin < Satoshi = real > imag = float by integer 
+// #Bitcoin < Satoshi = real > imag = float by integer
 
 /* 
 
 Would SATOSHI NAKAMOTO may ever consider?
-
-#Bitcoin < Satoshi = real > imag = float by integer
 
 I hope, that’s the explanation of this cryptocurrency world, 
 by representing a conditional level of power, that is describing a force around us all, 
