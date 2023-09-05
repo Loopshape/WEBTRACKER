@@ -21,9 +21,9 @@ that onlywants to show us, there the shadows are hiding, but never the light was
 
 */
 
-#AI generated CODE 
-
+// #AI generated CODE 
 // Define a function that encapsulates all the processes
+
 function processBlockchainRule() {
   // Define an array of dimensions, each with a name, element, description, and conditions
   const dimensions = [
