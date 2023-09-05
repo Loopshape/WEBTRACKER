@@ -10,14 +10,14 @@ synchronized with all planetary logical structures,
 that are recognizable as floating particles of light and swinging waves of the magnetic force, 
 that is the basic ground for our existence by moving us within a strict order of one final direction, 
 which was existing permanently. There’s a stream of power through this universe, 
-floating from“now” to “then” and is well known as “space”, 
-that has swinging forces of conditionalenergetic fields, 
+floating from “now” to “then” and is well known as “space”, 
+that has swinging forces of conditional energetic fields, 
 that are resulting by the pure existence of not available energetic fields, 
 that are not here on this place to be, but they exists on another place for being there: 
 
 The gravitational force! It’s an energetic form of a force that exists as an energetic field 
 through all natural beings and could be understand as a swinging mirror, 
-that onlywants to show us, there the shadows are hiding, but never the light was broken...
+that only "wants to show us", there the shadows are hiding, but never the light was broken...
 
 */
 
