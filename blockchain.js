@@ -1,29 +1,34 @@
-// #Bitcoin < Satoshi = real > imag = float by integer
+// ************************************************************
+// INITIALIZATION
+var $box = $('.outputBox'),
+    $userField = $('.userInput'),
+    // ****************************************
+    // GET KEYBOARD CHAR-CODE
+    stack = flow = warp = flowInit = '',
+    ready = pointer = response = status,
+    tagArray = [],
+    regEx, context,
+    ti = 0, tp = 0, // LOOP-COUNTERS
+    // ****************************************
+    // SETUP DEFAULT ENVIRONMENT VARS
+    req, cb, res, rem, fix, mem, sts, setContext, getStatus, // LOGIC-PROCESS
+    input = '', complete, singleRet, singleTab, singleDel, singleSpc, dataset, dateset, urlset, define, // QUERY-PROCESS
+    typefix, typeArray, verbId, verbArray, objId, objArray, feature, featureArray, featfix, // DEFINE-PROCESS
+    tagdef, tagset, vector, firstRun, hexArray, hexId, hexVar, appStr, defStr, preStr, // SHORTCUT-PROCESS
+    scSet, stackInit, statusSet, app, // BUILD-PROCESS
+    $debug = false; // DEBUG-MODE
 
-/* 
-
-Would SATOSHI NAKAMOTO may ever consider?
-
-I hope, that’s the explanation of this cryptocurrency world, 
-by representing a conditional level of power, that is describing a force around us all, 
+/* Would SATOSHI NAKAMOTO may ever consider  the explanation of this cryptocurrency world, by representing a conditional level of power, that is describing a force around us all, 
 synchronized with all planetary logical structures, 
 that are recognizable as floating particles of light and swinging waves of the magnetic force, 
 that is the basic ground for our existence by moving us within a strict order of one final direction, 
-which was existing permanently. There’s a stream of power through this universe, 
-floating from “now” to “then” and is well known as “space”, 
-that has swinging forces of conditional energetic fields, 
-that are resulting by the pure existence of not available energetic fields, 
-that are not here on this place to be, but they exists on another place for being there: 
+which was existing permanently. There’s a stream of power through this universe, floating from “now” to “then” and is well known as “space”, that has swinging forces of conditional energetic fields, 
+that are resulting by the pure existence of not available energetic fields, that are not here on this place to be, but they exists on another place for being there: 
 
-The gravitational force! It’s an energetic form of a force that exists as an energetic field 
-through all natural beings and could be understand as a swinging mirror, 
-that only "wants to show us", there the shadows are hiding, but never the light was broken...
+The gravitational force! It’s an energetic form of a force that exists as an energetic field through all natural beings and could be understand as a swinging mirror, that only "wants to show us", there the shadows are hiding, but never the light was broken... */
 
-*/
-
-// #AI generated CODE 
+// #AI generated CODE
 // Define a function that encapsulates all the processes
-
 function processBlockchainRule() {
   // Define an array of dimensions, each with a name, element, description, and conditions
   const dimensions = [
@@ -95,9 +100,6 @@ function processBlockchainRule() {
     console.log("------------------------");
   }
 
-  // Import the crypto module for hash generation
-  const crypto = require('crypto');
-
   // Define Constants for Metarule States
   const INITIAL_STATE = 0;
   const SINGULARITY = 1;
@@ -137,6 +139,7 @@ function processBlockchainRule() {
     }
   }
 
+  //
   // Define the energy amplitude for an additional dimension collide
   const energyAmplitude = 42; // You can replace this with your desired value
 
